@@ -27,4 +27,7 @@ public class MainPage {
 			return driver.findElement(By.linkText(registerLinkText));
 	}
 
+		public WebElement link_clik(WebDriver driver, String linkText){
+			return driver.findElement(By.linkText(linkText));
+		}
 }

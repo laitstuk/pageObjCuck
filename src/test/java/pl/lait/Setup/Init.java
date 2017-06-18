@@ -31,7 +31,7 @@ public class Init {
 	}
 
 	@After
-	public void cleanUp(){
+	public void end(){
 	close();
 	}
 }
